@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+   		tools:context=".MainActivity" >
+    <Button
+        android:id="@+id/dmy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/dmy_color"
+        android:text="@string/dmy_text"
+        android:textColor="@color/dmy_color" />
+    
+    <Button
+        android:id="@+id/dmy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/dmy_color"
+        android:text="@string/dmy_text"
+        android:textColor="@color/dmy_color" />
+    
+    <Button
+        android:id="@+id/dmy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/dmy_color"
+        android:text="@string/dmy_text"
+        android:textColor="@color/dmy_color" />
+    
+    <Button
+        android:id="@+id/btn111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+
+    	<Button
+        android:id="@+id/btn211"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+    
+        <Button
+        android:id="@+id/btn311"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+
+   		<Button
+        android:id="@+id/btn411"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	tools:context=".MainActivity" >
+   		
+    <Button
+        android:id="@+id/dmy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/dmy_color"
+        android:text="@string/dmy_text"
+        android:textColor="@color/dmy_color" />
+    
+    <Button
+        android:id="@+id/dmy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/dmy_color"
+        android:text="@string/dmy_text"
+        android:textColor="@color/dmy_color" />
+    
+    <Button
+        android:id="@+id/btn121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+
+    	<Button
+        android:id="@+id/btn221"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+    
+        <Button
+        android:id="@+id/btn321"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+
+   		<Button
+        android:id="@+id/btn421"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	tools:context=".MainActivity" >
+   		
+    <Button
+        android:id="@+id/dmy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/dmy_color"
+        android:text="@string/dmy_text"
+        android:textColor="@color/dmy_color" />
+    
+    <Button
+        android:id="@+id/btn131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+
+    	<Button
+        android:id="@+id/btn231"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+    
+        <Button
+        android:id="@+id/btn331"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+
+   		<Button
+        android:id="@+id/btn431"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	tools:context=".MainActivity" >
+   		
+
+    <Button
+        android:id="@+id/btn141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+
+    	<Button
+        android:id="@+id/btn241"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+    
+        <Button
+        android:id="@+id/btn341"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+
+   		<Button
+        android:id="@+id/btn441"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/none_color"
+        android:text="@string/none_text" />
+	</LinearLayout>
+</LinearLayout>

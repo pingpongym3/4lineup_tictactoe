@@ -1,196 +1,822 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".MainActivity" >
-	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    	xmlns:tools="http://schemas.android.com/tools"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:orientation="horizontal"
-   		tools:context=".MainActivity" >
-    <Button
-        android:id="@+id/dmy1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/dmy_color"
-        android:text="@string/dmy_text"
-        android:textColor="@color/dmy_color" />
-    
-    <Button
-        android:id="@+id/dmy1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/dmy_color"
-        android:text="@string/dmy_text"
-        android:textColor="@color/dmy_color" />
-    
-    <Button
-        android:id="@+id/dmy1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/dmy_color"
-        android:text="@string/dmy_text"
-        android:textColor="@color/dmy_color" />
-    
-    <Button
-        android:id="@+id/btn111"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
 
-    	<Button
-        android:id="@+id/btn211"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
+        android:orientation="vertical"
+        android:padding="2dp"
+        tools:context=".MainActivity" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn114"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn214"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn314"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn414"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn124"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn224"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn324"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn424"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn134"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn234"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn334"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn434"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn144"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn244"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn344"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn444"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp"
+        tools:context=".MainActivity" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn113"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn213"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn313"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn413"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn123"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn223"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn323"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn423"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn133"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn233"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn333"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn433"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn143"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn243"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn343"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn443"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp"
+        tools:context=".MainActivity" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn112"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn212"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn312"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn412"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn122"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn222"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn322"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn422"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn132"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn232"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn332"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn432"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn142"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn242"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn342"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn442"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+    </LinearLayout>
     
-        <Button
-        android:id="@+id/btn311"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-
-   		<Button
-        android:id="@+id/btn411"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-	</LinearLayout>
-	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    	xmlns:tools="http://schemas.android.com/tools"
-    	android:orientation="horizontal"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	tools:context=".MainActivity" >
-   		
-    <Button
-        android:id="@+id/dmy1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/dmy_color"
-        android:text="@string/dmy_text"
-        android:textColor="@color/dmy_color" />
     
-    <Button
-        android:id="@+id/dmy1"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/dmy_color"
-        android:text="@string/dmy_text"
-        android:textColor="@color/dmy_color" />
+        android:orientation="vertical"
+        android:padding="2dp"
+        tools:context=".MainActivity" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn111"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn211"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn311"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn411"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn121"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn221"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn321"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn421"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn131"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn231"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn331"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn431"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/btn141"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn241"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn341"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+
+            <Button
+                android:id="@+id/btn441"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/none_color"
+                android:text="@string/none_text" />
+        </LinearLayout>
+    </LinearLayout>
     
-    <Button
-        android:id="@+id/btn121"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-
-    	<Button
-        android:id="@+id/btn221"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-    
-        <Button
-        android:id="@+id/btn321"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-
-   		<Button
-        android:id="@+id/btn421"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-	</LinearLayout>
-	
-	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    	xmlns:tools="http://schemas.android.com/tools"
-    	android:orientation="horizontal"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	tools:context=".MainActivity" >
-   		
-    <Button
-        android:id="@+id/dmy1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/dmy_color"
-        android:text="@string/dmy_text"
-        android:textColor="@color/dmy_color" />
-    
-    <Button
-        android:id="@+id/btn131"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-
-    	<Button
-        android:id="@+id/btn231"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-    
-        <Button
-        android:id="@+id/btn331"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-
-   		<Button
-        android:id="@+id/btn431"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-	</LinearLayout>
-	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    	xmlns:tools="http://schemas.android.com/tools"
-    	android:orientation="horizontal"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	tools:context=".MainActivity" >
-   		
-
-    <Button
-        android:id="@+id/btn141"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-
-    	<Button
-        android:id="@+id/btn241"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-    
-        <Button
-        android:id="@+id/btn341"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-
-   		<Button
-        android:id="@+id/btn441"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/none_color"
-        android:text="@string/none_text" />
-	</LinearLayout>
 </LinearLayout>
